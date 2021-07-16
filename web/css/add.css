@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-May-2021, 16:45:32
+    Author     : hp
+*/
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+    table tr td:first-child {
+        width: 15%;
+    }
+    table tr td, select{
+        margin-left: 5em;
+        width: 15em;
+        padding-bottom: 1em;
+    }
+    input{
+        margin-left: 5em;
+        width: 14.6em;
+        padding-bottom: 1em;
+    }
+    table{
+        width: 100%; 
+        
+    }
+}
+
+img{
+    width: 18px;
+    height:18px;
+}
+
+.blue{
+    color: cornflowerblue;
+}
+
+body{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+â
+.btn{
+    margin-left: 8em;
+    width: auto;
+    background-color: cornflowerblue; 
+    color: white;
+}
+
+.danger{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+
+@media only screen and (min-width: 1025px) {
+    table tr td:first-child {
+        padding-left: 1em;
+        padding-right:  7em;
+        width: 15%;
+    }
+    table tr td, select{
+        width: 20em;
+        height: 3em;
+    }
+    input{
+        width: 19.56em;
+        height: 2.8em;
+    }
+    table{
+        width: 40%; 
+    }
+}
+
+

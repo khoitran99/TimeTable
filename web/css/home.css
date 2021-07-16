@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-May-2021, 16:26:44
+    Author     : hp
+*/
+
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+
+    .above{
+        padding-left: 1em;
+    }
+    .from, .to{ 
+        width: auto;
+        margin-right: 20px;
+    }
+    table{
+        width: auto;
+    }
+    table tr th {
+        height: 40px;
+    }
+    table tr th:first-child{
+        padding-left: 1em;
+    }
+    table tr td {
+        border: 0.05em solid #e7e6e1;
+        height: 40px;
+    }
+
+
+    input{
+        height: 2em;
+        margin-bottom: 1.5em;
+    }
+    a{
+        display: block;
+        text-decoration: none;
+    }
+}
+
+.blue{
+    color: cornflowerblue;
+}
+
+body{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.above{
+    border: 0.05em solid #e7e6e1;
+}
+.from, .to{ 
+    display: inline-block;
+}
+table tr th:first-child{
+    text-align: left;
+}
+table tr td:first-child{
+    text-align: left;
+}
+table tr th {
+    border: 0.05em solid #e7e6e1;
+}
+table tr td {
+    background-color: #e6e6e6;
+    text-align: center;
+}
+.course{
+    color: royalblue;
+}
+.button{
+    background-color: cornflowerblue;
+    color: white;
+}
+a{
+    color: cornflowerblue;
+}
+
+img{
+    width: 18px;
+    height:18px;
+}
+@media only screen and (min-width: 1025px) {
+
+    .above{
+        padding-left: 1em;
+    }
+    .from, .to{ 
+        width: auto;
+        margin-right: 20px;
+    }
+    table{
+        width: 40%;
+    }
+    table tr th {
+        height: 40px;
+    }
+    table tr th:first-child{
+        padding-left: 1em;
+    }
+    table tr td {
+        border: 0.05em solid #e7e6e1;
+        height: 40px;
+    }
+    table tr td:first-child {
+        padding-left: 1em;
+    }
+
+    input{
+        height: 2em;
+        margin-bottom: 1.5em;
+    }
+    a{
+        text-decoration: none;
+    }
+}
